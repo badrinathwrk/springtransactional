@@ -13,9 +13,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Spring-Transactional</name>
 	<description>Spring Transactional</description>
-	<build>
-		<finalName>springtransactional</finalName>
-	</build>
 	<properties>
 		<java.version>11</java.version>
 		<maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
@@ -48,6 +45,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>springtransactional</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
