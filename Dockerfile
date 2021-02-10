@@ -1,4 +1,4 @@
 FROM openjdk:11
-ARG JAR_FILE=build/lib/*.jar
-COPY build/lib/app.jar build/lib/
-ENTRYPOINT ["java","-jar","/app.jar"]
+EXPOSE 8080
+COPY target/Spring-Transactional-0.0.1-SNAPSHOT.jar Spring-Transactional-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/Spring-Transactional-0.0.1-SNAPSHOT.jar"]
